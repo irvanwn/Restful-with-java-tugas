@@ -1,0 +1,304 @@
+{
+	"info": {
+		"_postman_id": "ead8aa8b-0a79-4ecf-b1c2-0c48ab5d32a8",
+		"name": "Restfull-tugasPOST-webService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28446518"
+	},
+	"item": [
+		{
+			"name": "Sign Up new user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"irvan\",\r\n    \"password\":\"inipasswordsaya\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/masukApp/signup",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"masukApp",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"irvan\",\r\n    \"password\":\"inipasswordsaya\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/masukApp/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"masukApp",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/barang/cekData",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"barang",
+						"cekData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add New Data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"kodeBarang\":8,\r\n    \"namaBarang\":\"Buku BOSS 52\",\r\n    \"hargaBarang\":4000,\r\n    \"stokBarang\": 12,\r\n    \"kategoriBarang\":\"Alat Tulis\"    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/barang/addData",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"barang",
+						"addData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Barang by Id",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"namaBarang\": \"Keyboard Fantech\",\r\n        \"hargaBarang\": 112000,\r\n        \"stokBarang\": 9,\r\n        \"kategoriBarang\": \"Aksesoris Komputer\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/barang/editData/2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"barang",
+						"editData",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete data by id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/barang/deleteData/8",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"barang",
+						"deleteData",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cari data nama barang regex",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/barang/cariData/pulpen",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"barang",
+						"cariData",
+						"pulpen"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filter by harga range",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/barang/filter/harga/1000/5000",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"barang",
+						"filter",
+						"harga",
+						"1000",
+						"5000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add transaksi",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"kodeTransaksi\": 3,\r\n    \"listBarang\": [\r\n        {\r\n            \"kodeBarang\": 1,\r\n            \"namaBarang\": \"Product 1\",\r\n            \"hargaBarang\": 10000,\r\n            \"stokBarang\": 10,\r\n            \"kategoriBarang\": \"Category 1\"\r\n        },\r\n        {\r\n            \"kodeBarang\": 2,\r\n            \"namaBarang\": \"Product 2\",\r\n            \"hargaBarang\": 20000,\r\n            \"stokBarang\": 15,\r\n            \"kategoriBarang\": \"Category 2\"\r\n        }\r\n    ],\r\n    \"totalTransaksi\": 30000\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/transaksi/add",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"transaksi",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cek Transaksi by id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/transaksi/cek/3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"transaksi",
+						"cek",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
