@@ -11,8 +11,8 @@ Created a 10 backend service (User login/signup, Product Management and transact
 ## Screenshots
 
 <p align="center">
-  <p>Main Page</p>
+  <p>Edit Barang Test: Update product details. Request includes ID and updates. Response confirms success or errors.</p>
   <img src="https://github.com/irvanwn/Restful-with-java-tugas/blob/main/img-postman-testing/editData.jpg?raw=true" alt="Dashboard main page" width="700"/>
-  <p>Setting Page</p>
+  <p>Login Test: Verify login with credentials. Request and response sections show authentication status.</p>
   <img src="https://github.com/irvanwn/Restful-with-java-tugas/blob/main/img-postman-testing/login.jpg" alt="Setting page" width="700"/>
 </p>
