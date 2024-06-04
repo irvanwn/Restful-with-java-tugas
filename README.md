@@ -15,4 +15,8 @@ Created a 10 backend service (User login/signup, Product Management and transact
   <img src="https://github.com/irvanwn/Restful-with-java-tugas/blob/main/img-postman-testing/editData.jpg?raw=true" alt="Dashboard main page" width="1000"/>
   <p>Login Test: Verify login with credentials. Request and response sections show authentication status.</p>
   <img src="https://github.com/irvanwn/Restful-with-java-tugas/blob/main/img-postman-testing/login.jpg" alt="Setting page" width="1000"/>
+  <p>Find Data Test: Utilize regex to search data. Request specifies search text. Response displays matching data</p>
+  <img src="https://github.com/irvanwn/Restful-with-java-tugas/blob/main/img-postman-testing/findData.jpg" alt="Setting page" width="1000"/>
+  <p>Add Data Test</p>
+  <img src="https://github.com/irvanwn/Restful-with-java-tugas/blob/main/img-postman-testing/login.jpg" alt="Setting page" width="1000"/>
 </p>
