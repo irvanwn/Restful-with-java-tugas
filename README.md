@@ -14,5 +14,5 @@ Created a 10 backend service (User login/signup, Product Management and transact
   <p>Main Page</p>
   <img src="https://github.com/irvanwn/Restful-java-tugas/img-postman-testing/editData.jpg" alt="Dashboard main page" width="700"/>
   <p>Setting Page</p>
-  <img src="https://github.com/irvanwn/TTS-KapitaSelekta/blob/main/project-image-preview/Screenshot%202024-05-31%20215553.jpg" alt="Setting page" width="700"/>
+  <img src="https://github.com/irvanwn/Restful-java-tugas/img-postman-testing/login.jpg" alt="Setting page" width="700"/>
 </p>
