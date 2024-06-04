@@ -18,5 +18,5 @@ Created a 10 backend service (User login/signup, Product Management and transact
   <p>Find Data Test: Utilize regex to search data. Request specifies search text. Response displays matching data</p>
   <img src="https://github.com/irvanwn/Restful-with-java-tugas/blob/main/img-postman-testing/findData.jpg" alt="Setting page" width="1000"/><br>
   <p>Add Data Test</p>
-  <img src="https://github.com/irvanwn/Restful-with-java-tugas/blob/main/img-postman-testing/login.jpg" alt="Setting page" width="1000"/><br>
+  <img src="https://github.com/irvanwn/Restful-with-java-tugas/blob/main/img-postman-testing/addData.jpg" alt="Setting page" width="1000"/><br>
 </p>
