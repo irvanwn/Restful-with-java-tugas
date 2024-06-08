@@ -8,7 +8,7 @@ Created a 10 backend service (User login/signup, Product Management and transact
 - Developed CRUD Operations
 - Conducted Testing using Postman
 
-## Screenshots
+## Screenshots API Testing using Postman
 
 <p align="center">
   <p>Edit Barang Test: Update product details. Request includes ID and updates. Response confirms success or errors.</p>
