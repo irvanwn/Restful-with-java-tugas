@@ -4,7 +4,7 @@ Created a 10 backend service (User login/signup, Product Management and transact
 
 ## Description
 
-- Implemented MVC Architecture
+- Implemented Model Controller
 - Developed CRUD Operations
 - Conducted Testing using Postman
 
