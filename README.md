@@ -7,7 +7,7 @@ Created a 10 backend service (User login/signup, Product Management and transact
 - Implemented Model Controller
 - Developed CRUD Operations
 - Conducted Testing using Postman
-- Implemented Object Oriented Programming [comment]: <> (Encapsulation,Class,Object)
+- Implemented Object Oriented Programming [//]: <>  (Encapsulation,Class,Object)
 
 ## Screenshots API Testing using Postman
 
